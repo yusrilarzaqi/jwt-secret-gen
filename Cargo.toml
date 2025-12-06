@@ -1,0 +1,13 @@
+[package]
+name = "jwt-secret-gen"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "jwt_secret_gen"
+path = "src/lib.rs"
+
+[dependencies]
+clap = {version = "4.2", features = ["derive"]}
+rand = "0.8"
+base64 = "0.21"
